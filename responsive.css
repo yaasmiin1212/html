@@ -1,0 +1,39 @@
+/* General Styles */
+
+/* Mobile Styles */
+@media (max-width: 1000px) {
+  #Humburger {
+    display: block;
+    color: white;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: rgba(0, 33, 71, 0.9); */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 20px 0;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav ul li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .right_nav {
+    display: none;
+  }
+  .right_nav i {
+    display: block;
+  }
+}
+
+/* Adjust other styles if necessary */

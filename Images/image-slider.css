@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.campuses {
+  width: 100%;
+  height: auto;
+}
+
+.section-header {
+  width: 100%;
+  background-color: #002147;
+  height: 50vh;
+  padding-top: 50px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: #ffffff;
+  position: relative;
+}
+
+.section-header .sub-titles p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b9b9ba;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section-header .sub-titles h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.carousel {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 10px;
+}
+
+.slider {
+  flex: 1;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.s2 {
+  flex: 2;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  color: #002147;
+}
+.slide-text p {
+  background-color: #ffffff;
+  padding: 14px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.tour-btn {
+  padding: 20px 45px;
+  background-color: #2eca7f;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.tour-btn:hover {
+  background-color: #002147;
+}
